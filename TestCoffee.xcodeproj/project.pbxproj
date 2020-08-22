@@ -24,6 +24,7 @@
 		279BB5F924F116B4007E5833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279BB5FC24F116B4007E5833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279BB5FE24F116B4007E5833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279BB61224F12136007E5833 /* TestCoffee copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestCoffee copy-Info.plist"; path = "/Users/Mike/Documents/Xcode/RockAndNull/TestCoffee/TestCoffee copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			children = (
 				279BB5EF24F116B1007E5833 /* TestCoffee */,
 				279BB5EE24F116B1007E5833 /* Products */,
+				279BB61224F12136007E5833 /* TestCoffee copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};

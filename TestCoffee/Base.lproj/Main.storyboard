@@ -18,6 +18,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKR-zj-YWK">
                                 <rect key="frame" x="162.5" y="438" width="89" height="30"/>
                                 <state key="normal" title="I want coffee"/>
+                                <connections>
+                                    <action selector="coffeeIBAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4v3-Gd-HFX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
