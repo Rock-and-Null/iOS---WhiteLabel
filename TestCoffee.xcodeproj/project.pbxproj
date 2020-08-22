@@ -13,6 +13,12 @@
 		279BB5F824F116B1007E5833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F624F116B1007E5833 /* Main.storyboard */; };
 		279BB5FA24F116B4007E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F924F116B4007E5833 /* Assets.xcassets */; };
 		279BB5FD24F116B4007E5833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5FB24F116B4007E5833 /* LaunchScreen.storyboard */; };
+		279BB61524F12162007E5833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F424F116B1007E5833 /* ViewController.swift */; };
+		279BB61624F12162007E5833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F024F116B1007E5833 /* AppDelegate.swift */; };
+		279BB61724F12162007E5833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F224F116B1007E5833 /* SceneDelegate.swift */; };
+		279BB61A24F12162007E5833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5FB24F116B4007E5833 /* LaunchScreen.storyboard */; };
+		279BB61B24F12162007E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F924F116B4007E5833 /* Assets.xcassets */; };
+		279BB61C24F12162007E5833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F624F116B1007E5833 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +31,19 @@
 		279BB5FC24F116B4007E5833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279BB5FE24F116B4007E5833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279BB61224F12136007E5833 /* TestCoffee copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestCoffee copy-Info.plist"; path = "/Users/Mike/Documents/Xcode/RockAndNull/TestCoffee/TestCoffee copy-Info.plist"; sourceTree = "<absolute>"; };
+		279BB62024F12162007E5833 /* RealCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279BB62124F12162007E5833 /* TestCoffee copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestCoffee copy2-Info.plist"; path = "/Users/Mike/Documents/Xcode/RockAndNull/TestCoffee/TestCoffee copy2-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		279BB5EA24F116B1007E5833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BB61824F12162007E5833 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,6 +59,7 @@
 				279BB5EF24F116B1007E5833 /* TestCoffee */,
 				279BB5EE24F116B1007E5833 /* Products */,
 				279BB61224F12136007E5833 /* TestCoffee copy-Info.plist */,
+				279BB62124F12162007E5833 /* TestCoffee copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				279BB5ED24F116B1007E5833 /* TestCoffee.app */,
+				279BB62024F12162007E5833 /* RealCoffee.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +106,23 @@
 			productReference = 279BB5ED24F116B1007E5833 /* TestCoffee.app */;
 			productType = "com.apple.product-type.application";
 		};
+		279BB61324F12162007E5833 /* RealCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279BB61D24F12162007E5833 /* Build configuration list for PBXNativeTarget "RealCoffee" */;
+			buildPhases = (
+				279BB61424F12162007E5833 /* Sources */,
+				279BB61824F12162007E5833 /* Frameworks */,
+				279BB61924F12162007E5833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealCoffee;
+			productName = TestCoffee;
+			productReference = 279BB62024F12162007E5833 /* RealCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -118,6 +152,7 @@
 			projectRoot = "";
 			targets = (
 				279BB5EC24F116B1007E5833 /* TestCoffee */,
+				279BB61324F12162007E5833 /* RealCoffee */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +168,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		279BB61924F12162007E5833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BB61A24F12162007E5833 /* LaunchScreen.storyboard in Resources */,
+				279BB61B24F12162007E5833 /* Assets.xcassets in Resources */,
+				279BB61C24F12162007E5833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -143,6 +188,16 @@
 				279BB5F524F116B1007E5833 /* ViewController.swift in Sources */,
 				279BB5F124F116B1007E5833 /* AppDelegate.swift in Sources */,
 				279BB5F324F116B1007E5833 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279BB61424F12162007E5833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BB61524F12162007E5833 /* ViewController.swift in Sources */,
+				279BB61624F12162007E5833 /* AppDelegate.swift in Sources */,
+				279BB61724F12162007E5833 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +375,44 @@
 			};
 			name = Release;
 		};
+		279BB61E24F12162007E5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSY962FCU8;
+				INFOPLIST_FILE = "TestCoffee copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.RealCoffee;
+				PRODUCT_NAME = RealCoffee;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279BB61F24F12162007E5833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSY962FCU8;
+				INFOPLIST_FILE = "TestCoffee copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.RealCoffee;
+				PRODUCT_NAME = RealCoffee;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +430,15 @@
 			buildConfigurations = (
 				279BB60224F116B4007E5833 /* Debug */,
 				279BB60324F116B4007E5833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279BB61D24F12162007E5833 /* Build configuration list for PBXNativeTarget "RealCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BB61E24F12162007E5833 /* Debug */,
+				279BB61F24F12162007E5833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
