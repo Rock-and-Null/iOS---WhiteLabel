@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBAction func coffeeIBAction(_ sender: Any) {
         let appName = Bundle.main.infoDictionary?["CFBundleName"] as? String
         let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        self.popUpOptionDialog("",content: "You have ordered coffee using the \(appName!) app with version \(appVersion!)")
+        self.popUpOptionDialog("",content: "You have ordered coffee using the \(appName!) app with version \(appVersion!) and coffee description: \(Coffee.coffeeDescription())")
     }
     
     func popUpOptionDialog(_ title: String? = nil, content: String) {
