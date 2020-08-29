@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2789ED4F24F469D0000B2F34 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789ED4E24F469D0000B2F34 /* Coffee.swift */; };
-		2789ED5124F469DD000B2F34 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789ED5024F469DD000B2F34 /* Coffee.swift */; };
 		279BB5F124F116B1007E5833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F024F116B1007E5833 /* AppDelegate.swift */; };
 		279BB5F324F116B1007E5833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F224F116B1007E5833 /* SceneDelegate.swift */; };
 		279BB5F524F116B1007E5833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BB5F424F116B1007E5833 /* ViewController.swift */; };
@@ -21,11 +20,11 @@
 		279BB61A24F12162007E5833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5FB24F116B4007E5833 /* LaunchScreen.storyboard */; };
 		279BB61B24F12162007E5833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F924F116B4007E5833 /* Assets.xcassets */; };
 		279BB61C24F12162007E5833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279BB5F624F116B1007E5833 /* Main.storyboard */; };
+		27EC9BC424F9782200DD981D /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789ED4E24F469D0000B2F34 /* Coffee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2789ED4E24F469D0000B2F34 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
-		2789ED5024F469DD000B2F34 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		279BB5ED24F116B1007E5833 /* TestCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279BB5F024F116B1007E5833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		279BB5F224F116B1007E5833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				279BB62124F12162007E5833 /* RealCoffee-Info.plist */,
-				2789ED5024F469DD000B2F34 /* Coffee.swift */,
 			);
 			path = RealCoffee;
 			sourceTree = "<group>";
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				279BB5FE24F116B4007E5833 /* TestCoffee-Info.plist */,
-				2789ED4E24F469D0000B2F34 /* Coffee.swift */,
 			);
 			path = TestCoffee;
 			sourceTree = "<group>";
@@ -105,6 +102,7 @@
 			children = (
 				2789ED4824F42E53000B2F34 /* Resources */,
 				279BB5F024F116B1007E5833 /* AppDelegate.swift */,
+				2789ED4E24F469D0000B2F34 /* Coffee.swift */,
 				279BB5F224F116B1007E5833 /* SceneDelegate.swift */,
 				279BB5F424F116B1007E5833 /* ViewController.swift */,
 				279BB5F624F116B1007E5833 /* Main.storyboard */,
@@ -227,7 +225,7 @@
 				279BB61524F12162007E5833 /* ViewController.swift in Sources */,
 				279BB61624F12162007E5833 /* AppDelegate.swift in Sources */,
 				279BB61724F12162007E5833 /* SceneDelegate.swift in Sources */,
-				2789ED5124F469DD000B2F34 /* Coffee.swift in Sources */,
+				27EC9BC424F9782200DD981D /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +379,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.TestCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TESTCOFFEE DEBUG";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,6 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.TestCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TESTCOFFEE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +419,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.RealCoffee;
 				PRODUCT_NAME = RealCoffee;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG REALCOFFEE";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,6 +439,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rockandnull.com.RealCoffee;
 				PRODUCT_NAME = RealCoffee;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = REALCOFFEE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
