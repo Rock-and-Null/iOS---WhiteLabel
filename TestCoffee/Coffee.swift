@@ -10,12 +10,6 @@ import Foundation
 
 class Coffee {
     static func coffeeDescription() -> String {
-        #if TESTCOFFEE
-        return "TestCoffee"
-        #elseif REALCOFFEE
-        return "RealCoffee"
-        #else
-        return "WRONG"
-        #endif
+        return PropertiesController.sharedInstance.description
     }
 }
