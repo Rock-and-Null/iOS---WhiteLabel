@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271DD122250BFCB80044D9BC /* TestCoffee.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271DD121250BFCB80044D9BC /* TestCoffee.xcassets */; };
+		271DD124250BFD660044D9BC /* RealCoffee.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271DD123250BFD660044D9BC /* RealCoffee.xcassets */; };
 		2750F53A25019C2B00740CC7 /* rockandnull.com.TestCoffee.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2750F53925019C2B00740CC7 /* rockandnull.com.TestCoffee.plist */; };
 		2750F53C25019C4200740CC7 /* rockandnull.com.RealCoffee.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2750F53B25019C4200740CC7 /* rockandnull.com.RealCoffee.plist */; };
 		2750F53E2501A09600740CC7 /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750F53D2501A09600740CC7 /* PropertiesController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271DD121250BFCB80044D9BC /* TestCoffee.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TestCoffee.xcassets; sourceTree = "<group>"; };
+		271DD123250BFD660044D9BC /* RealCoffee.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RealCoffee.xcassets; sourceTree = "<group>"; };
 		2750F53925019C2B00740CC7 /* rockandnull.com.TestCoffee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = rockandnull.com.TestCoffee.plist; sourceTree = "<group>"; };
 		2750F53B25019C4200740CC7 /* rockandnull.com.RealCoffee.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = rockandnull.com.RealCoffee.plist; sourceTree = "<group>"; };
 		2750F53D2501A09600740CC7 /* PropertiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 			children = (
 				279BB62124F12162007E5833 /* RealCoffee-Info.plist */,
 				2750F53B25019C4200740CC7 /* rockandnull.com.RealCoffee.plist */,
+				271DD123250BFD660044D9BC /* RealCoffee.xcassets */,
 			);
 			path = RealCoffee;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				279BB5FE24F116B4007E5833 /* TestCoffee-Info.plist */,
 				2750F53925019C2B00740CC7 /* rockandnull.com.TestCoffee.plist */,
+				271DD121250BFCB80044D9BC /* TestCoffee.xcassets */,
 			);
 			path = TestCoffee;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271DD122250BFCB80044D9BC /* TestCoffee.xcassets in Resources */,
 				2750F53A25019C2B00740CC7 /* rockandnull.com.TestCoffee.plist in Resources */,
 				279BB5FD24F116B4007E5833 /* LaunchScreen.storyboard in Resources */,
 				279BB5FA24F116B4007E5833 /* Assets.xcassets in Resources */,
@@ -212,6 +219,7 @@
 				2750F53C25019C4200740CC7 /* rockandnull.com.RealCoffee.plist in Resources */,
 				279BB61A24F12162007E5833 /* LaunchScreen.storyboard in Resources */,
 				279BB61B24F12162007E5833 /* Assets.xcassets in Resources */,
+				271DD124250BFD660044D9BC /* RealCoffee.xcassets in Resources */,
 				279BB61C24F12162007E5833 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
